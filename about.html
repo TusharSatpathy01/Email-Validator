@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About-eValid8</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/email.svg" alt="email svg">
+                <span>eValid8</span>
+            </div>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" class="active"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <div class="container">
+                <h1>About eValid8</h1>
+                <p class="subtitle">Your trusted solution for email validation</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="container">
+                <div class="about-card">
+                    <div class="about-text">
+                        <h2><i class="fas fa-rocket"></i> Our Mission</h2>
+                        <p>At eValid8, we're dedicated to helping businesses and individuals improve their email deliverability and communication efficiency. Our goal is to reduce bounce rates and ensure your messages reach real, engaged recipients.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Mission illustration">
+                    </div>
+                </div>
+
+                <div class="about-card reverse">
+                    <div class="about-text">
+                        <h2><i class="fas fa-cogs"></i> How It Works</h2>
+                        <p>Our system uses advanced algorithms and API integrations to verify email addresses in real-time. We check multiple factors including:</p>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Syntax validation</li>
+                            <li><i class="fas fa-check-circle"></i> Domain verification</li>
+                            <li><i class="fas fa-check-circle"></i> Mailbox existence</li>
+                            <li><i class="fas fa-check-circle"></i> Disposable email detection</li>
+                            <li><i class="fas fa-check-circle"></i> Role-based account identification</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80" alt="Technology illustration">
+                    </div>
+                </div>
+
+                <div class="team-section">
+                    <h2><i class="fas fa-users"></i>Creator's Corner</h2>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="img\ProfileDP.jpg" alt="Team member">
+                            </div>
+                            <h3>Tushar Satpathy</h3>
+                            <p class="position">Project Leader</p>
+                            <p class="bio">This email validator application showcases my skills in front-end development, focusing on user input validation and responsive UI design.</p>
+                        </div>
+                       
+                        <div class="team-member">
+                            <div class="member-image">
+                                <img src="img\ChatGPT-logo.png" alt="Team member">
+                            </div>
+                            <h3>AI Chatbot</h3>
+                            <p class="position">UI/UX Designer</p>
+                            <p class="bio">Collaborated with ChatGPT to craft user-friendly interfaces that turn complex email validation into a smooth experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <div class="container">
+                <h2><i class="fas fa-chart-line"></i> Our Impact</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number" id="validatedEmails">0</div>
+                        <div class="stat-label">Emails Validated</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="bounceReduction">0</div>
+                        <div class="stat-label">Bounce Rate Reduction</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="happyClients">0</div>
+                        <div class="stat-label">Satisfied Clients</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Copyright &copy; <span id="year"></span> | eValid8.com | All Rights reserved</p>
+            <div class="social-links">
+                <a href="https://x.com/satpathy_01"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/TusharSatpathy01"><i class="fab fa-github"></i></a>
+                <a href="contact.html"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/about.js"></script>
+</body>
+</html>

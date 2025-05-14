@@ -44,7 +44,7 @@
 ---
 
 ## 📂 Project Structure
-eValid8/
+eValid8/<br>
 ├── index.html # Main app page with validator<br>
 ├── about.html # Project overview & team info<br>
 ├── contact.html # Contact and reach-out form<br>

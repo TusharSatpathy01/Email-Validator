@@ -45,17 +45,17 @@
 
 ## 📂 Project Structure
 eValid8/
-├── index.html # Main app page with validator
-├── about.html # Project overview & team info
-├── contact.html # Contact and reach-out form
-├── css/
-│ └── style.css # Core styling for the entire app
-├── js/
-│ ├── index.js # Validation logic and API interaction
-│ ├── about.js # About page effects
-│ └── contact.js # Contact form interactivity
-├── img/ # Brand and UI images
-└── README.md # Project documentation
+├── index.html # Main app page with validator<br>
+├── about.html # Project overview & team info<br>
+├── contact.html # Contact and reach-out form<br>
+├── css/<br>
+│ └── style.css # Core styling for the entire app<br>
+├── js/<br>
+│ ├── index.js # Validation logic and API interaction<br>
+│ ├── about.js # About page effects<br>
+│ └── contact.js # Contact form interactivity<br>
+├── img/ # Brand and UI images<br>
+└── README.md # Project documentation<br>
 
 ---
 
